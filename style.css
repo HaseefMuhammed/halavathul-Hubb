@@ -1,0 +1,86 @@
+.student-sect .head{
+  text-align: center;
+  background-color: orange;
+  padding: 0.5em;
+  font-weight: bold;
+}
+.select-std{
+  width: 80%;
+  height: 60%;
+}
+/* board */
+
+.info .d-t{
+  text-align: left;
+}
+.info .m-head{
+  text-align: center;
+  margin-left: -180px;
+}
+.info .live-status{
+  text-align: right;
+}
+.message marquee{
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+}
+.print-btn{
+  background-color: rgb(43, 80, 225);
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 30%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.print-btn:hover{
+  opacity: 0.8;
+}
+
+/* Dialog */
+
+#scoreUpdateDialog {
+  width: 300px;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+}
+#scoreUpdateDialog p{
+  text-align: center;
+  font-size: 1.5em;
+}
+#scoreUpdateDialog button{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#scoreUpdateDialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Live cirlce */
+.live-circle{
+  border-radius: 50%;
+  padding: 1em;
+  background-color: red;
+  animation: blkLive;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes blkLive{
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.img{
+  background-color: orange;
+  height: 9em;
+  width: 1300px;
+  margin-top: 10px;
+}

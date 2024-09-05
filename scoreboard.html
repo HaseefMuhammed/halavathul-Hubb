@@ -11,17 +11,19 @@
 <body>
   <header>
     <div class="container">
-      <div class="img"></div>
+      <div class="banner-img">
+        <img class="img-fluid mt-2" src="images/banner.png" alt="">
+      </div>
       <div class="info mt-3 d-flex align-items-center">
         <p class="d-t" id="datetime"></p>
-        <h1 class="m-head flex-grow-1">Meelad Fest 2024</h1>
+        <h1 class="m-head flex-grow-1">SCORE BOARD</h1>
         <p class="live-status">LIVE</p><div class="live-circle"></div>
       </div>
     </div>
   </header>
 
   <section class="mt-3 message">
-    <marquee id="notice-marquee" behavior="scroll" direction="left"></marquee>
+    <marquee id="notice-marquee" behavior="scroll" direction="left">Developing progress...</marquee>
   </section>
 
   <section class="short-forms">
@@ -56,62 +58,64 @@
     <table class="table table-striped">
       <thead>
         <tr>
-          <th class="bg-warning" scope="col">Group Name</th>
-          <th class="bg-warning" scope="col">P-1</th>
-          <th class="bg-warning" scope="col">P-2</th>
-          <th class="bg-warning" scope="col">P-3</th>
-          <th class="bg-warning" scope="col">P-4</th>
-          <th class="bg-warning" scope="col">P-5</th>
-          <th class="bg-warning" scope="col">P-6</th>
-          <th class="bg-warning" scope="col">P-7</th>
-          <th class="bg-warning" scope="col">P-8</th>
-          <th class="bg-warning" scope="col">P-9</th>
-          <th class="bg-warning" scope="col">Total</th>
+          <th class="bg-warning head-table-dec" scope="col">Group Name</th>
+          <th class="bg-warning head-table-dec" scope="col">P-1</th>
+          <th class="bg-warning head-table-dec" scope="col">P-2</th>
+          <th class="bg-warning head-table-dec" scope="col">P-3</th>
+          <th class="bg-warning head-table-dec" scope="col">P-4</th>
+          <th class="bg-warning head-table-dec" scope="col">P-5</th>
+          <th class="bg-warning head-table-dec" scope="col">P-6</th>
+          <th class="bg-warning head-table-dec" scope="col">P-7</th>
+          <th class="bg-warning head-table-dec" scope="col">P-8</th>
+          <th class="bg-warning head-table-dec" scope="col">P-9</th>
+          <th class="bg-warning head-table-dec" scope="col">Total</th>
         </tr>
       </thead>
       <tbody id="scoreboardBody">
         <tr>
-          <th class="bg-primary" scope="row">Team-1</th>
-          <td id="team1-p1">0</td>
-          <td id="team1-p2">0</td>
-          <td id="team1-p3">0</td>
-          <td id="team1-p4">0</td>
-          <td id="team1-p5">0</td>
-          <td id="team1-p6">0</td>
-          <td id="team1-p7">0</td>
-          <td id="team1-p8">0</td>
-          <td id="team1-p9">0</td>
-          <td id="team1-total">0</td>
+          <th class="group-head-table-dec" scope="row">DUL FUQAR</th>
+          <td class="group-table-dec" id="team1-p1">0</td>
+          <td class="group-table-dec" id="team1-p2">0</td>
+          <td class="group-table-dec" id="team1-p3">0</td>
+          <td class="group-table-dec " id="team1-p4">0</td>
+          <td class="group-table-dec " id="team1-p5">0</td>
+          <td class="group-table-dec " id="team1-p6">0</td>
+          <td class="group-table-dec " id="team1-p7">0</td>
+          <td class="group-table-dec " id="team1-p8">0</td>
+          <td class="group-table-dec " id="team1-p9">0</td>
+          <td class="group-table-dec " id="team1-total">0</td>
         </tr>
         <tr>
-          <th class="bg-secondary" scope="row">Team-2</th>
-          <td id="team2-p1">0</td>
-          <td id="team2-p2">0</td>
-          <td id="team2-p3">0</td>
-          <td id="team2-p4">0</td>
-          <td id="team2-p5">0</td>
-          <td id="team2-p6">0</td>
-          <td id="team2-p7">0</td>
-          <td id="team2-p8">0</td>
-          <td id="team2-p9">0</td>
-          <td id="team2-total">0</td>
+          <th class="group-head-table-dec" scope="row"> BUL BUL </th>
+          <td class="group-table-dec " id="team2-p1">0</td>
+          <td class="group-table-dec " id="team2-p2">0</td>
+          <td class="group-table-dec " id="team2-p3">0</td>
+          <td class="group-table-dec " id="team2-p4">0</td>
+          <td class="group-table-dec " id="team2-p5">0</td>
+          <td class="group-table-dec " id="team2-p6">0</td>
+          <td class="group-table-dec " id="team2-p7">0</td>
+          <td class="group-table-dec " id="team2-p8">0</td>
+          <td class="group-table-dec " id="team2-p9">0</td>
+          <td class="group-table-dec " id="team2-total">0</td>
         </tr>
         <tr>
-          <th class="bg-info" scope="row">Team-3</th>
-          <td id="team3-p1">0</td>
-          <td id="team3-p2">0</td>
-          <td id="team3-p3">0</td>
-          <td id="team3-p4">0</td>
-          <td id="team3-p5">0</td>
-          <td id="team3-p6">0</td>
-          <td id="team3-p7">0</td>
-          <td id="team3-p8">0</td>
-          <td id="team3-p9">0</td>
-          <td id="team3-total">0</td>
+          <th class="group-head-table-dec" scope="row">DUL DUL</th>
+          <td class="group-table-dec " id="team3-p1">0</td>
+          <td class="group-table-dec " id="team3-p2">0</td>
+          <td class="group-table-dec " id="team3-p3">0</td>
+          <td class="group-table-dec " id="team3-p4">0</td>
+          <td class="group-table-dec " id="team3-p5">0</td>
+          <td class="group-table-dec " id="team3-p6">0</td>
+          <td class="group-table-dec " id="team3-p7">0</td>
+          <td class="group-table-dec " id="team3-p8">0</td>
+          <td class="group-table-dec " id="team3-p9">0</td>
+          <td class="group-table-dec " id="team3-total">0</td>
         </tr>
       </tbody>
     </table>
   </section>
+
+  
 
 <section class="text-center">
   <p id="autoText" style="display: none;">This is auto generated scoresheet more info visit haseef-ws.netlify.app or www.webcraaft.42web.io</p>

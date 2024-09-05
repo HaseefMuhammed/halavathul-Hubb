@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 .student-sect .head{
   text-align: center;
   background-color: orange;
@@ -78,9 +80,22 @@
   100%{opacity: 1;}
 }
 
-.img{
-  background-color: orange;
-  height: 9em;
-  width: 1300px;
-  margin-top: 10px;
+.banner-img img{
+  width: 100%;
+  border-radius: 5px;
 }
+.m-head{
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+}
+/* .head-table-dec{
+  text-align: center;
+}
+.group-table-dec {
+  text-align: center;
+}
+.group-head-table-dec{
+  text-align: center;
+} */
